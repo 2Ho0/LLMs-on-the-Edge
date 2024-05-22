@@ -6,7 +6,7 @@ for the experiments conducted as part of the “LLMs on the Edge - Quality, Late
 ## Code
 The sourcecode to log the data during our experiments in located in the [code](code) folder.
 The main file is [ask.py](code/ask.py). It is responsible for logging the answers and the time values.
-The authors used ChatGPT (version GPT-4o) to assist with writing the code for the figures in the paper.
+ChatGPT (version GPT-4o) assisted us in creating the figures in our paper.
 
 ## Dataset
 
