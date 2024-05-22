@@ -6,7 +6,7 @@ for the experiments conducted as part of the “LLMs on the Edge - Quality, Late
 ## Code
 The sourcecode to log the data during our experiments in located in the [code](code) folder.
 The main file is [ask.py](code/ask.py). It is responsible for logging the answers and the time values.
-ChatGPT (version GPT-4o) assisted us in creating the figures in our paper.
+
 
 ## Dataset
 
@@ -18,6 +18,5 @@ This folder also contains the evaluation criteria for quality evaluation perform
 
 All results of the quality, energy and latency evaluations are stored in [results](results) for every model we tested on the edge device.
 
-
-
-
+## Acknowledgements
+ChatGPT (version GPT-4o) assisted us in creating the code to plot figures for the paper.
