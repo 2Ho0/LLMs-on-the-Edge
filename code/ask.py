@@ -68,7 +68,7 @@ def askQuestions(model):
     df = readQuestions()
     for index, row in df.iterrows():
         print(index)
-        question = 'Answer very briefly: ' + row['question']
+        question = row['question']
         reference_answer = row['answer']
         response = generateResponse(question, model)
         extractDataFromResponse(response, question, reference_answer)
@@ -81,8 +81,8 @@ def askQuestions(model):
                              'eval_duration', 'response_token_sum', 'prompt_token_sum',
                              'ref_answer_token_sum']) 
     print(df)
-    df.to_excel('results_' + model + '_PI5_brief.xlsx')
-    df.to_csv('results_' + model + '_PI5_brief.csv', sep=';')
+    df.to_excel('results_' + model + '_PI5.xlsx')
+    df.to_csv('results_' + model + '_PI5.csv', sep=';')
 
 #Change the name of the model here before execution
 askQuestions('phi3')
