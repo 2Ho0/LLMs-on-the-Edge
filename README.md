@@ -19,3 +19,5 @@ This folder also contains the evaluation criteria for quality evaluation perform
 All results of the quality, energy and latency evaluations are stored in [results](results) for every model we tested on the edge device.
 
 
+
+
