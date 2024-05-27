@@ -4,7 +4,7 @@ This repository contains all the [data](dataset) used, all the [results](results
 for the experiments conducted as part of the scientific paper "LLMs on the Edge - Quality, Latency and Energy Efficiency" submitted to KIU-2024 (5th Workshop on "KI in der Umweltinformatik"). 
 
 ## Code
-The sourcecode to log the data during our experiments in located in the [code](code) folder.
+The sourcecode to log the data during our experiments is located in the [code](code) folder.
 The main file is [ask.py](code/ask.py). It is responsible for logging the answers and the time values.
 
 
@@ -19,4 +19,4 @@ This folder also contains the evaluation criteria for quality evaluation perform
 All results of the quality, energy and latency evaluations are stored in [results](results) for every model we tested on the edge device.
 
 ## Acknowledgements
-ChatGPT (version GPT-4o) assisted us in creating the code to plot figures for the paper.
+ChatGPT (version GPT-4o) assisted us in creating the figures for this paper.
