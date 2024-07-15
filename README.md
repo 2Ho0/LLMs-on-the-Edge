@@ -1,7 +1,7 @@
 # Documentation
 
 This repository contains all the [data](dataset) used, all the [results](results) obtained and the corresponding source code 
-for the experiments conducted as part of the scientific paper "LLMs on the Edge - Quality, Latency and Energy Efficiency" submitted to KIU-2024 (5th Workshop on "KI in der Umweltinformatik"). 
+for the experiments conducted as part of the scientific paper "LLMs on the Edge: Quality, Latency, and Energy Efficiency" published at KIU-2024 (5th Workshop on "KI in der Umweltinformatik"). 
 
 ## Code
 The sourcecode to log the data during our experiments is located in the [code](code) folder.
