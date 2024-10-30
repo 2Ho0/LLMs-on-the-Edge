@@ -20,3 +20,8 @@ All results of the quality, energy and latency evaluations are stored in [result
 
 ## Acknowledgements
 ChatGPT (version GPT-4o) assisted us in creating the figures for this paper.
+
+## Attribution
+If you use parts of this repository in your work, please cite as follows:
+
+Bast, Sebastian; Begic Fazlic, Lejla; Naumann, Stefan; Dartmann, Guido (2024): LLMs on the Edge: Quality, Latency, and Energy Efficiency. INFORMATIK 2024. DOI: [10.18420/inf2024_104](https://www.doi.org/10.18420/inf2024_104). Bonn: Gesellschaft für Informatik e.V.. PISSN: 1617-5468. ISBN: 978-3-88579-746-3. pp. 1183-1192. 5. Workshop "KI in der Umweltinformatik" (KIU-2024). Wiesbaden. 24.-26. September 2024
