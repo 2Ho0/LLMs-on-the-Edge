@@ -10,25 +10,39 @@ measurements = []
 def get_tegrastats_metrics():
     try:
         # tegrastats 명령 실행
-        result = subprocess.run(
-            ['tegrastats', '--interval', '1', '--samples', '1'],  # 1회 실행
-            capture_output=True, text=True
-        )
-        output = result.stdout.strip()
+        process = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-        # GPU 사용률 추출 (GR3D 퍼센트 값)
+        # 1초 동안 출력 수집
+        output_lines = []
+        for _ in range(2):  # 두 줄만 읽음
+            line = process.stdout.readline()
+            if line:
+                output_lines.append(line.strip())
+
+        # 프로세스 종료
+        process.terminate()
+
+        # 출력이 없으면 None 반환
+        if not output_lines:
+            return None, None
+
+        # 마지막 줄에서 필요한 정보 추출
+        last_line = output_lines[-1]
+
+        # GPU 사용률 추출 (GR3D_FREQ)
         gpu_utilization = None
-        for part in output.split():
-            if "GR3D" in part:
-                gpu_utilization = int(part.split("@")[1].replace('%', ''))
+        if "GR3D_FREQ" in last_line:
+            gpu_part = [part for part in last_line.split() if "GR3D_FREQ" in part][0]
+            gpu_utilization = int(gpu_part.split()[1].replace('%', ''))
 
-        # 전력 소비 추출 (POM_5V_IN)
+        # 전력 소비 추출 (VDD_IN)
         power_consumption = None
-        for part in output.split():
-            if "POM_5V_IN" in part:
-                power_consumption = float(part.split('/')[0].replace('W', ''))
+        if "VDD_IN" in last_line:
+            power_part = [part for part in last_line.split() if "VDD_IN" in part][0]
+            power_consumption = float(power_part.split('mW')[0]) / 1000  # mW를 W로 변환
 
         return gpu_utilization, power_consumption
+
     except Exception as e:
         print("Error measuring tegrastats metrics:", e)
         return None, None
