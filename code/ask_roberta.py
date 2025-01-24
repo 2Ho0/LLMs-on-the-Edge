@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 
 measurements = []
 
-# tegrastats를 실행하여 GPU 및 전력 소비 정보 추출
+# tegrastats 실행 및 GPU 및 전력 소비 정보 추출
 def get_tegrastats_metrics():
     try:
         # tegrastats 명령 실행
@@ -14,7 +14,7 @@ def get_tegrastats_metrics():
 
         # 1초 동안 출력 수집
         output_lines = []
-        for _ in range(2):  # 두 줄만 읽음
+        for _ in range(10):  # 1초 동안 약 10줄 수집
             line = process.stdout.readline()
             if line:
                 output_lines.append(line.strip())
@@ -24,6 +24,7 @@ def get_tegrastats_metrics():
 
         # 출력이 없으면 None 반환
         if not output_lines:
+            print("No output from tegrastats")
             return None, None
 
         # 마지막 줄에서 필요한 정보 추출
@@ -33,7 +34,7 @@ def get_tegrastats_metrics():
         gpu_utilization = None
         if "GR3D_FREQ" in last_line:
             gpu_part = [part for part in last_line.split() if "GR3D_FREQ" in part][0]
-            gpu_utilization = int(gpu_part.split()[1].replace('%', ''))
+            gpu_utilization = int(gpu_part.split('@')[1].replace('%', ''))
 
         # 전력 소비 추출 (VDD_IN)
         power_consumption = None
@@ -53,10 +54,10 @@ def readQuestions():
     df = pd.read_csv('../dataset/miniSQuAD.csv', sep=';')
     return df
 
-# Load the model and tokenizer from Hugging Face
+# Load the model and tokenizer from Hugging Face (GPU 활성화)
 tokenizer = AutoTokenizer.from_pretrained('deepset/roberta-base-squad2')
 model = AutoModelForQuestionAnswering.from_pretrained('deepset/roberta-base-squad2')
-qa_pipeline = pipeline('question-answering', model=model, tokenizer=tokenizer)
+qa_pipeline = pipeline('question-answering', model=model, tokenizer=tokenizer, device=0)  # GPU 사용
 
 # Ask the Hugging Face model a question and receive a response
 def generateResponse(question, context):
