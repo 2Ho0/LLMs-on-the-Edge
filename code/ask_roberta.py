@@ -6,15 +6,16 @@ from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 
 measurements = []
 
-# tegrastats 실행 및 GPU 및 전력 소비 정보 추출
+# tegrastats를 실행하여 GPU 및 전력 소비 정보 추출
 def get_tegrastats_metrics():
     try:
-        # tegrastats 명령 실행
+        # tegrastats 실행
         process = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
         # 1초 동안 출력 수집
         output_lines = []
-        for _ in range(10):  # 1초 동안 약 10줄 수집
+        start_time = time.time()
+        while time.time() - start_time < 1:  # 1초 동안 출력 수집
             line = process.stdout.readline()
             if line:
                 output_lines.append(line.strip())
@@ -33,14 +34,25 @@ def get_tegrastats_metrics():
         # GPU 사용률 추출 (GR3D_FREQ)
         gpu_utilization = None
         if "GR3D_FREQ" in last_line:
-            gpu_part = [part for part in last_line.split() if "GR3D_FREQ" in part][0]
-            gpu_utilization = int(gpu_part.split('@')[1].replace('%', ''))
+            try:
+                # "GR3D_FREQ" 위치를 찾고 그 다음 값을 추출
+                parts = last_line.split()
+                gr3d_index = parts.index("GR3D_FREQ")
+                gpu_utilization = int(parts[gr3d_index + 1].replace('%', ''))
+            except (IndexError, ValueError):
+                print("Error parsing GR3D_FREQ")
 
         # 전력 소비 추출 (VDD_IN)
         power_consumption = None
         if "VDD_IN" in last_line:
-            power_part = [part for part in last_line.split() if "VDD_IN" in part][0]
-            power_consumption = float(power_part.split('mW')[0]) / 1000  # mW를 W로 변환
+            try:
+                # "VDD_IN" 위치를 찾고 그 다음 값을 추출
+                parts = last_line.split()
+                vdd_in_index = parts.index("VDD_IN")
+                power_value = parts[vdd_in_index + 1].split('mW')[0]  # "7894mW"에서 숫자만 추출
+                power_consumption = float(power_value) / 1000  # mW를 W로 변환
+            except (IndexError, ValueError):
+                print("Error parsing VDD_IN")
 
         return gpu_utilization, power_consumption
 
@@ -48,16 +60,18 @@ def get_tegrastats_metrics():
         print("Error measuring tegrastats metrics:", e)
         return None, None
 
+
+
 # Load questions from the dataset
 def readQuestions():
     current_directory = os.getcwd()
     df = pd.read_csv('../dataset/miniSQuAD.csv', sep=';')
     return df
 
-# Load the model and tokenizer from Hugging Face (GPU 활성화)
+# Load the model and tokenizer from Hugging Face
 tokenizer = AutoTokenizer.from_pretrained('deepset/roberta-base-squad2')
 model = AutoModelForQuestionAnswering.from_pretrained('deepset/roberta-base-squad2')
-qa_pipeline = pipeline('question-answering', model=model, tokenizer=tokenizer, device=0)  # GPU 사용
+qa_pipeline = pipeline('question-answering', model=model, tokenizer=tokenizer, device=0)
 
 # Ask the Hugging Face model a question and receive a response
 def generateResponse(question, context):
