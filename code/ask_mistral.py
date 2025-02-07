@@ -61,6 +61,9 @@ def monitor_tegrastats_during_response(question):
 
         # 프로세스 종료
         process.terminate()
+        del power_consumptions[-1]
+        del gpu_utilizations[-1]
+        
         print(power_consumptions)
         print(gpu_utilizations)
 
@@ -77,7 +80,7 @@ def monitor_tegrastats_during_response(question):
 # Load questions from the dataset
 def readQuestions():
     current_directory = os.getcwd()
-    df = pd.read_csv('../dataset/miniSQuAD.csv', sep=';')
+    df = pd.read_csv('../dataset/mini_dataset.csv', sep=',')
     return df
 
 # Ask the Ollama model a question and receive a response
