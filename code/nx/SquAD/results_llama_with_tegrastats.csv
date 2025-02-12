@@ -1,0 +1,491 @@
+;question;reference_answer;generated_answer;response_token_sum;prompt_token_sum;ref_answer_token_sum;latency;power_consumption;gpu_utilization
+0;In what country is Normandy located?;France;Normandy is a region located in the northwestern part of France. It spans across several departments, including Manche, Calvados, Orne, Eure, and Seine-Maritime. So, to answer your question, Normandy is located in the country of France.;36;6;1;26.3253755569458;17.662562499999996;67.875
+1;What is Southern California often abbreviated as?;SoCal;Southern California (SoCal) or the Southland is commonly abbreviated as SoCal.;11;7;1;5.078504800796509;19.990333333333332;99.0
+2;Which name is also used to describe the Amazon rainforest in English?;also known in English as Amazonia or the Amazon Jungle;"The Amazon rainforest is often referred to as ""Amazonia"" or the ""Lungs of the Earth"", but one common alternative name that is widely used in English is:
+
+**Green Abyss**
+
+However, a more well-known and commonly used name for the Amazon rainforest in English is:
+
+**The Amazon Basin**
+
+But if I had to give you an even more poetic answer...
+
+A commonly used name for the Amazon rainforest in English is also:
+
+**The Lungs of the Earth** (although this is not as specific, it refers to the forest's crucial role in producing oxygen)
+
+Yet another answer could be:
+
+**Amazon Jungle**
+
+But if I had to give you a very simple and straightforward answer...
+
+A commonly used name for the Amazon rainforest in English is simply:
+
+**The Amazon**";126;12;10;33.87505078315735;20.78875862068966;96.6896551724138
+3;An igneous rock is a rock that crystallizes from what?;rock crystallizes from melt (magma and/or lava);"An igneous rock is a rock that crystallizes from **magma** (molten rock) or **lava**. When magma cools and solidifies, it forms igneous rocks with crystals that are visible to the naked eye. If the cooling process occurs quickly, the rock will have small crystals and be called a basalt or an andesite. However, if the cooling process is slow, the rock will form larger crystals and be referred to as granite.
+
+So, to summarize: igneous rocks are formed from molten magma or lava that cools and solidifies into a crystalline structure!";91;10;7;26.235727548599243;20.8335;92.31818181818181
+4;What is the largest city the Rhine runs through?;Cologne, Germany;"The Rhine River flows through several large cities in Europe, but some of the most notable ones are:
+
+* Cologne (Köln), Germany: With a population of over 1 million people, Cologne is one of the largest cities along the Rhine.
+* Düsseldorf, Germany: A major city and economic hub with a population of around 620,000.
+* Rotterdam, Netherlands: The second-largest city in the Netherlands and a significant port city, with a population of over 600,000.
+
+However, if I had to choose one, I'd say that Cologne is arguably the largest city the Rhine runs through.";95;9;2;27.201492309570312;20.684391304347827;88.26086956521739
+5;Along with geothermal and nuclear, what is a notable non-combustion heat source?;solar power;A notable non-combustion heat source besides geothermal and nuclear is solar energy. Solar power can be harnessed through photovoltaic panels or concentrated solar power systems without combustion.;27;12;2;9.103820323944092;20.62714285714286;99.0
+6;What theorem defines the main role of primes in number theory?;The fundamental theorem of arithmetic;"The Fundamental Theorem of Arithmetic (FTA) is a fundamental concept that defines the main role of prime numbers in number theory. It states:
+
+**Every positive integer can be represented as a product of prime powers in a unique way, except for the order in which the prime factors are listed.**
+
+In other words, every positive integer n can be written as:
+
+n = p1^a1 × p2^a2 × ... × pn^an
+
+where p1, p2, ..., pn are distinct prime numbers and a1, a2, ..., an are non-negative integers.
+
+This theorem has far-reaching implications in number theory, including the concept of unique factorization, which is essential for many areas of mathematics. It shows that prime numbers play a central role in understanding the structure of positive integers.
+
+So, there you have it! The Fundamental Theorem of Arithmetic is often considered the most important theorem in number theory, and it's a fundamental tool for many mathematical applications.";154;11;5;41.513195276260376;20.973583333333337;88.22222222222223
+7;What kind of university is the University of Chicago?;a private research university;"The University of Chicago (UChicago) is a private, non-profit research university located in Chicago, Illinois. It is one of the most prestigious and highly selective institutions of higher education in the world.
+
+Here are some characteristics that define the University of Chicago:
+
+1. **Research-oriented**: The University of Chicago is classified as an ""R1: Doctoral University – Highest Research Activity"" by the Carnegie Foundation, which means it has a strong focus on research and scholarship.
+2. **Liberal arts and sciences**: UChicago offers a broad-based liberal arts education with a strong emphasis on critical thinking, analytical reasoning, and intellectual inquiry in the humanities, social sciences, natural sciences, and mathematics.
+3. **Interdisciplinary programs**: The university is known for its innovative interdisciplinary programs that bring together faculty from multiple departments to create new areas of study, such as the Program in the History of Science, Medicine, and Technology.
+4. **Small class sizes**: With a student-faculty ratio of approximately 6:1, UChicago offers an intimate learning environment with small classes that foster close relationships between students and faculty.
+5. **Highly competitive admissions**: The University of Chicago is extremely selective in its admissions process, with an acceptance rate of around 8% for the class of 2024.
+6. **Private funding**: As a private institution, UChicago relies on endowment income and donations from alumni and supporters to fund its operations.
+
+Some notable rankings and accolades include:
+
+* Ranked #5 in National Universities by US News & World Report (2022)
+* Ranked #1 in Social Mobility among Top Private Colleges by US News & World Report (2022)
+* Member of the prestigious Association of American Universities (AAU) and the Ivy Plus group
+* Highly regarded for its business, law, medicine, and public policy programs
+
+Overall, the University of Chicago is a highly respected institution known for its rigorous academic programs, research opportunities, and commitment to intellectual inquiry.";307;9;4;84.61937284469604;20.84140000000001;94.21333333333334
+8;What is the second most abundant element?;helium;"The second most abundant element in the universe, after hydrogen (about 74.9%), is helium (about 23.8%). This abundance is based on various studies of the interstellar medium and other celestial sources.
+
+However, it's worth noting that the abundance of elements can vary depending on the specific context or location within the universe. For example:
+
+* In the Earth's crust, oxygen is the second most abundant element (about 46% by weight).
+* In the human body, oxygen is also the second most abundant element (about 65% by mass).
+
+But if we're considering the overall abundance of elements in the universe as a whole, helium is generally considered to be the second most abundant element after hydrogen.";115;7;1;31.39088273048401;20.692777777777785;95.92592592592592
+9;What popular term is another commonly used way of saying the Amazon?;Amazonia or the Amazon Jungle;"The popular term you might be thinking of is the ""Rainforest"". The Amazon Rainforest, to be specific, refers to the vast tropical rainforest that spans across nine countries in South America, including Brazil, Peru, Colombia, and others.
+
+Is this what you were thinking of?";44;12;5;12.87234616279602;20.7986;97.6
+10;What is the worlds largest academic and private library system?;Harvard Library;"The world's largest academic and private library system is the Boston Public Library, however it's not considered as a single entity but rather as part of the larger public library network.
+
+A more accurate answer would be:
+
+*   The Boston Public Library has over 23 million items in its collections.
+*   It serves approximately 2.2 million people through its 28 branches and online services.
+*   Its collections include books, e-books, audiobooks, music, movies, and other materials.
+
+However, if we consider private libraries, then the largest is likely to be that of the British Library's ""Knowledge Centre""";96;10;2;26.63066005706787;20.979695652173913;96.0
+11;Which Florida city has the biggest population?;Jacksonville;"According to the United States Census Bureau (2020 estimates), the top 5 most populous cities in Florida are:
+
+1. **Jacksonville**: approximately 944,477 people
+2. Miami: approximately 442,241 people (note: this is a city, but not the only municipality that makes up the larger Miami metropolitan area)
+3. Tampa: approximately 392,890 people
+4. Orlando: approximately 307,573 people
+5. St. Petersburg: approximately 259,137 people
+
+However, if you're looking for the largest municipality (city or town) in Florida by population, it would be Jacksonville.
+
+It's worth noting that while Miami has a large population, its metropolitan area is actually larger than Jacksonville's, with a population of around 6.2 million people compared to Jacksonville's approximately 1.5 million.";113;7;1;36.44305205345154;20.85287096774194;95.29032258064517
+12;What percentage of global assets does the richest 1% of people have?;40%;"According to a report by Oxfam, in 2020, the world's richest 1% held more than twice as much wealth as the rest of humanity combined. Specifically:
+
+* The top 1% held 46% of global assets.
+* The next 9% (up to the top 10%) held 39% of global assets.
+* This means that just over half (85%) of global assets were held by the top 10%.
+* Meanwhile, the remaining 90% of the population (the bottom 90%) held a mere 15% of global assets.
+
+This is often referred to as the ""wealth gap"" or ""income inequality"". These numbers are based on data from Credit Suisse's Global Wealth Report and are adjusted for inflation.
+
+It's worth noting that these figures have been increasing over time, with some estimates suggesting that by 2025, the top 1% will hold more than two-thirds of global wealth.";142;12;1;41.00684356689453;21.02202777777778;95.22222222222223
+13;Where was France's Huguenot population largely centered?;the southern and central parts of France;"France's Huguenot (French Calvinist) population was largely centered in the southwestern region of France, particularly in the provinces of Guyenne, Gascony, and Languedoc. These regions were home to many Calvinist communities and cities, such as:
+
+1. La Rochelle: A major Huguenot stronghold on the Atlantic coast.
+2. Bordeaux: The capital of Guyenne, which was a hub of Huguenot influence in southwestern France.
+3. Montauban: A city in the Tarn-et-Garonne department that was heavily influenced by Calvinism.
+4. Nîmes: A city in Languedoc (now Occitanie) that had a significant Huguenot population.
+5. the Cévennes Mountains: This mountain range in southern France was home to many Huguenots who fled persecution and established secret communities.
+
+These regions were more tolerant of Protestantism due to their historical ties with England and the influence of Calvinist ideas, which spread through trade and cultural exchange. However, during the French Wars of Religion (1562-1598), these areas became centers of conflict between Catholics and Huguenots, leading to significant persecution and violence.
+
+The Edict of Nantes in 1598 granted toleration to Huguenots in France, but it was revoked in 1685 by Louis XIV, leading to a mass exodus of Huguenots from these regions. Many settled in England, the Netherlands, or other Protestant countries, while others established new communities in the Americas.";212;7;7;67.32380032539368;20.88603389830508;93.9322033898305
+14;What is a ctenophora?;phylum of animals that live in marine waters;"Ctenophora, also known as the ""comb jellies,"" are a group of marine animals that belong to the phylum Ctenophora. They are simple, multicellular organisms that are related to sponges and cnidarians (such as jellyfish and corals), but are actually more closely related to bilaterians (animals with bilateral body symmetry).
+
+Here are some key characteristics of ctenophores:
+
+1. **Body structure**: Ctenophores have a gelatinous, umbrella-shaped body, typically with eight tentacles that resemble a comb or net.
+2. **Movement**: They move using their numerous, hair-like appendages called cilia, which wave back and forth to propel the animal through the water.
+3. **Nerve cells**: Ctenophores have nerve nets, but they lack a centralized brain or nervous system like more complex animals do.
+4. **Feeding behavior**: Many species of ctenophores capture small prey using their tentacles and then digest it externally.
+5. **Bioluminescence**: Some ctenophores are bioluminescent, meaning they can produce light through chemical reactions within their bodies.
+
+Despite being simple organisms, ctenophores play an important role in the marine ecosystem as both predators and prey for other animals. They also provide a fascinating example of evolutionary convergence, where different body plans have evolved to perform similar functions in various environments.";197;4;8;61.13390064239502;20.890222222222228;97.03703703703704
+15;Along with non-governmental and nonstate schools, what is another name for private schools?;indipendent;"Another name for private schools, along with non-governmental and non-state schools, is:
+
+**Independent Schools**
+
+Private schools are also often referred to as independent schools because they are not controlled by the government and operate independently.";35;13;1;10.088956832885742;21.124;92.625
+16;What is the largest city of Poland?;Warsaw;The largest city in Poland is Warsaw (Polish: Warszawa). It has a population of approximately 1.8 million people within its city limits and over 3 million in its metropolitan area. Warsaw serves as the capital and one of the most significant economic, cultural, and educational centers in Poland.;48;7;1;13.980056285858154;20.489727272727276;88.18181818181819
+17;By what means is imperialism usually administered?;colonization, use of military force, or other means;"Imperialism has been administered in various ways throughout history, but some common means include:
+
+1.  **Colonial Administration**: The colonial power directly administers the colonies or territories it has acquired through military conquest, treaty, or other means.
+2.  **Indirect Rule**: In this system, a local ruler or nobility is allowed to maintain control over their territory in exchange for loyalty and payment of taxes to the imperial power.
+3.  **Proxy Administration**: The imperial power uses its own citizens, often businessmen or professionals, to manage its territories and extract resources.
+4.  **Military Occupation**: In some cases, the imperial power maintains a military presence in the occupied territories, directly administering them through military governors or prefects.
+5.  **Economic Domination**: Imperial powers may exert control over local economies by controlling trade routes, markets, and industries, often through monopoly or oligopoly.
+
+These methods of administration can vary depending on the specific historical context and the nature of the imperial relationship.";155;7;8;42.73960828781128;20.94048648648649;91.67567567567568
+18;How long did it take to improve on Sir Isaac Newton's laws of motion?;nearly three hundred years;"Sir Isaac Newton formulated his three laws of motion in the late 17th century, and they were first published in his book ""Philosophiæ Naturalis Principia Mathematica"" (Mathematical Principles of Natural Philosophy) in 1687. Since then, numerous scientists and physicists have contributed to our understanding of mechanics and built upon Newton's work.
+
+It's difficult to pinpoint exactly when each improvement was made, but here are some key milestones:
+
+1. **18th century**: Guillaume d'Alembert (1743) and Leonhard Euler (1765) developed the theory of rigid bodies and introduced concepts like angular momentum.
+2. **19th century**:
+	* Sadi Carnot (1824) laid the foundation for thermodynamics, which is closely related to Newton's laws.
+	* Augustin-Louis Cauchy (1836) worked on the mathematics underlying Newton's laws, particularly in the context of calculus and differential equations.
+	* William Rowan Hamilton (1833) developed the mathematical formalism of Lagrangian mechanics, which provides an equivalent formulation of Newton's laws.
+3. **Early 20th century**:
+	* Albert Einstein's theory of special relativity (1905) introduced a new perspective on time and space, modifying our understanding of classical mechanics.
+	* Niels Bohr (1913) developed the Bohr model of the atom, which applied quantum principles to atomic behavior.
+4. **20th century**:
+	* Quantum Mechanics was fully formulated in the 1920s by pioneers like Werner Heisenberg, Erwin Schrödinger, and Paul Dirac.
+	* Relativity (special and general) became widely accepted and integrated into our understanding of gravity and spacetime.
+
+In summary, it's been over three centuries since Newton first proposed his laws. The gradual improvements and refinements have led to a more comprehensive and nuanced understanding of mechanics, but it's difficult to attribute a specific ""completion"" or ""finalization"" date for these developments.";274;14;4;86.17345118522644;21.04238157894737;93.98684210526316
+19;What aspects of life does Islamism seek to integrate itself into?;all spheres of life.;"Islamism, a political ideology that seeks to implement Islamic law (sharia) in society, aims to integrate itself into various aspects of life. Some of the key areas where Islamists attempt to impose their influence include:
+
+1.  **Politics**: Islamists often seek to establish an Islamic state or government, where sharia is the primary source of legislation. They may try to infiltrate and control political institutions, such as parliaments, governments, or even militaries.
+2.  **Education**: Islamists attempt to shape education systems to conform to their ideology, promoting Islamist curricula, textbooks, and teaching methods that emphasize Islamic values and principles.
+3.  **Social Services**: Islamists often establish social service organizations, such as charities, hospitals, schools, and orphanages, which serve as a means to promote their ideology and gain influence in local communities.
+4.  **Media and Communication**: Islamists use various media outlets, including newspapers, magazines, television stations, radio stations, and online platforms, to disseminate their message, propagate Islamic values, and shape public opinion.
+5.  **Cultural Institutions**: Islamists try to promote and preserve Islamic culture, art, and architecture, often by restoring or building mosques, madrasas (Islamic schools), and other cultural institutions that reflect Islamic heritage.
+6.  **Family Law**: Islamists seek to implement sharia-based family laws, which can include strict rules on marriage, divorce, inheritance, and child custody.
+7.  **Economy**: Some Islamist groups advocate for an Islamic economic system, known as ""Islamic finance,"" which is based on principles of sharia and seeks to promote social justice and equality in economic transactions.
+8.  **Security and Defense**: In some cases, Islamists may seek to establish or join armed groups, such as militias or terrorist organizations, to protect their interests and impose their ideology through force.
+
+These attempts can be seen in various countries around the world, including but not limited to those with a majority Muslim population.";298;11;4;87.51723265647888;20.671272727272736;89.25974025974025
+20;When was the current parliament of Scotland convened?;Following a referendum in 1997;"The current Parliament of Scotland, also known as the Scottish Parliament, was reconvened on July 1, 1999. This marked the end of a period of over 300 years during which Scotland had no separate parliament.
+
+Prior to this date, Scotland's government and legislative functions were exercised by the UK Parliament in London, with some aspects being devolved to the Scottish Office (a government department responsible for Scottish affairs) or to various statutory bodies such as the Scottish Development Agency.
+
+The new Scottish Parliament was established under the Scotland Act 1998, which created a devolved parliament with powers over areas such as health, education, justice, and local government. The first session of the Scottish Parliament began on July 1, 1999, when the parliament held its inaugural meeting at Holyrood in Edinburgh.
+
+However, it's worth noting that this is not the first Scottish Parliament to be convened in history. Scotland had a separate parliament from the 13th century until the Acts of Union in 1707, which united the Kingdom of England and the Kingdom of Scotland under a single government. The previous parliament was formally dissolved on May 25, 1707.
+
+The current parliament is the fifth Scottish Parliament since its establishment in 1296, with the previous ones being:
+
+1. 1296-1603: Edward I's parliament
+2. 1612-1639: Charles I's parliament
+3. 1661-1690: Charles II's parliament
+4. 1707 (formally dissolved on May 25): The Parliament of Scotland was formally dissolved under the Acts of Union.
+
+The current Scottish Parliament, established in 1999, is a modern devolved institution with a significant range of powers and responsibilities.";260;8;5;74.7560703754425;20.869515151515166;96.36363636363636
+21;The immune system protects organisms against what?;disease;"The immune system protects organisms against infections and diseases caused by:
+
+1. **Pathogens**: Bacteria, viruses, fungi, and parasites that can cause illness.
+2. **Toxins**: Poisonous substances produced by bacteria or other microorganisms that can harm the body.
+3. **Cancer cells**: Abnormal cells that grow out of control and invade surrounding tissues.
+
+In essence, the immune system defends against any foreign substance or agent that could potentially harm the body's cells, tissues, and organs.";73;7;1;21.944336652755737;20.885944444444444;96.55555555555556
+22;"How much was the combined wealth of the ""10 Million dollar millionaires"" in 2008?";nearly $41 trillion;I am unable to verify the combined wealth of the “10 Million Dollar Millionaires” in 2008.;16;14;3;6.113943815231323;20.097250000000003;93.25
+23;When did the 1973 oil crisis begin?;October 1973;"The 1973 oil crisis, also known as the Oil Embargo, began on October 17, 1973. It was triggered by an Arab-Israeli war in which Egypt and Syria launched a surprise attack against Israel on Yom Kippur (October 6-7). The United States and other Western countries had been providing military support to Israel at the time.
+
+In response to the war, Saudi Arabia, led by King Faisal, announced that it would limit oil exports to Western countries. Other Arab oil-producing countries, including Libya, Algeria, Iraq, Kuwait, and the United Arab Emirates, followed suit. They formed an organization called OAPEC (Organization of Arab Petroleum Exporting Countries) to coordinate their efforts.
+
+The OAPEC countries imposed an embargo on oil shipments to several Western countries, including the United States, Netherlands, Britain, Belgium, Italy, and Japan. The embargo lasted for about six months, until March 1974, when Saudi Arabia lifted its restrictions.
+
+During this period, global oil prices skyrocketed by over 300%, leading to widespread shortages, rationing, and economic disruptions in many countries. The crisis had a significant impact on the world economy, contributing to high inflation rates, recession, and a rise in energy costs that lasted for years after the embargo was lifted.";199;7;2;55.484089851379395;20.86828571428572;93.59183673469387
+24;When were the Normans in Normandy?;10th and 11th centuries;"The term ""Norman"" refers to a specific group of people who originated from Scandinavia (specifically, present-day Denmark and Norway) and later settled in what is now the region of Normandy in northern France.
+
+The first Viking raid on the Frankish kingdom, which included present-day Normandy, occurred in the late 8th century. However, it was not until the mid-9th century that the Vikings began to establish settlements and establish a presence in the area.
+
+In around 911, the Viking leader Rollo (also known as Rolf) agreed with King Charles III of West Francia (the Frankish kingdom) to cede control of a territory he had conquered in Normandy in exchange for land and a guarantee of safe conduct. This marked the beginning of the Duchy of Normandy.
+
+The descendants of these Viking settlers, who would become known as the Normans, began to adopt French culture and language over time. They intermarried with the local population, adopted Christianity, and eventually became one of the dominant forces in medieval France.
+
+Over the next few centuries, the Normans developed a distinct identity, blending their Scandinavian heritage with their French surroundings. In 911, Rollo was granted the title of Duke of Normandy by Charles III, marking the beginning of the Duchy of Normandy as an independent entity within the Frankish kingdom.
+
+So to answer your question, the Normans were in Normandy from around the early 9th century onwards, with their settlements and influence growing over the next few centuries.";243;6;4;65.69171905517578;20.85474137931035;91.06896551724138
+25;What is it called when people in society rebel against laws they think are unfair?;Civil disobedience;"When people in a society rebel against laws that they consider unfair, unjust, or oppressive, it's often referred to as:
+
+1. **Civil Disobedience**: This term was coined by Henry David Thoreau, who argued that individuals have a moral obligation to disobey laws that are unjust. Civil disobedience can take many forms, from peaceful protests and sit-ins to more confrontational actions like blockades or occupations.
+2. **Protest Movement**: A protest movement is a collective effort by individuals to bring attention to a perceived injustice or unfair law, often using non-violent means such as demonstrations, rallies, and boycotts.
+3. **Social Activism**: Social activism involves collective action to promote social change and challenge unjust laws or systems. This can include organizing protests, lobbying for policy changes, and advocating for human rights.
+4. **Resistance**: When individuals or groups actively resist an unfair law or system through various means, such as peaceful protest, civil disobedience, or more confrontational actions.
+
+Examples of movements that have challenged unjust laws or social norms include:
+
+* The Civil Rights Movement in the United States (1950s-1960s)
+* The Anti-Apartheid Movement (1940s-1990s)
+* The Women's Suffrage Movement ( late 19th and early 20th centuries)
+* The LGBTQ+ rights movement (ongoing)
+* The #MeToo movement (ongoing)
+
+These examples illustrate how individuals can come together to challenge laws or social norms that are perceived as unfair, often leading to significant social change.";229;15;2;66.77777242660522;20.910830508474582;90.10169491525424
+26;What are the main sources of primary law?;Treaties establishing the European Union;"Primary law, also known as source material or legislation, refers to laws and regulations that have been enacted by a government. The main sources of primary law vary depending on the jurisdiction, but here are some common ones:
+
+1. **Statutes**: Laws passed by a legislature (e.g., Congress in the United States) or a parliament (e.g., UK Parliament). Statutes are also known as acts, codes, or ordinances.
+2. **Constitutions**: The supreme law of a country that outlines the framework and principles of governance. Constitutions often establish the powers of government and the rights of citizens.
+3. **Regulations**: Rules issued by an executive agency or department to implement and enforce statutes. Regulations are also known as administrative regulations or secondary legislation.
+4. **Ordinances**: Local laws passed by a municipal or county government, which may be specific to a particular area or community.
+5. **Treaties**: Agreements between countries that have been ratified and become part of international law. Treaties can create obligations for the signatory countries and establish rules for their interactions.
+6. **Decrees**: Laws passed by an executive authority, such as a monarch or president, often in emergency situations or under delegated authority.
+7. **Proclamations**: Official announcements or decrees issued by a government to implement new policies or regulations.
+
+In addition to these primary sources of law, there are also other important documents that may be considered secondary sources:
+
+1. **Case law**: Court decisions and judicial opinions that interpret and apply statutes and regulations.
+2. **Opinions of the attorney general**: Official interpretations of laws by the chief legal advisor to a government.
+3. **Regulatory guidance**: Documents issued by regulatory agencies to clarify their policies and procedures.
+
+These primary sources of law are fundamental to understanding the law in any jurisdiction, and they often form the basis for secondary sources like case law and commentaries.";302;8;5;82.27558207511902;20.84726027397263;92.34246575342466
+27;Where did the black death originate?;the arid plains of Central Asia;"The Black Death, also known as the Plague, is believed to have originated in Central Asia, specifically in present-day Mongolia and China. The exact origin of the plague is not well-documented, but based on historical records, scientific research, and archaeological findings, here's what is widely accepted:
+
+**Initial Outbreak (1346-1353)**
+
+The plague first appeared in the city of Koko-Tekin, which was a major trading center in the Mongol Empire. From there, it spread to other parts of Central Asia, including present-day Kazakhstan and Kyrgyzstan.
+
+**Spread to Europe**
+
+In 1347, a fleet of Genoese ships arrived at the port city of Messina, Sicily, carrying infected rats and sailors who had been exposed to the disease in the East. The plague quickly spread throughout Italy, France, Spain, England, and other parts of Europe.
+
+**Bubonic Plague**
+
+The Black Death is caused by a bacterium called Yersinia pestis (Y. pestis), which was carried by fleas on rats, mice, and other rodents. These rodents were infected with the bacteria in Central Asia, where they had been introduced to by humans. The disease spread rapidly through trade routes, including the Silk Road.
+
+**Types of Plague**
+
+There are three types of plague: bubonic, pneumonic, and septicemic. Bubonic plague is the most common form, characterized by swollen lymph nodes (buboes) in the groin, armpits, or neck. Pneumonic plague occurs when the bacteria infect the lungs, causing pneumonia-like symptoms. Septicemic plague is a rare but deadly form that causes blood poisoning.
+
+**Estimated Mortality Rate**
+
+The Black Death is estimated to have killed between 75 million and 200 million people in Europe alone, approximately 30-60% of the continent's population. The exact mortality rate is difficult to determine, as records are incomplete and biased.
+
+**Modern Outbreaks**
+
+Although the plague has largely been eradicated from Europe, it still exists today in some parts of the world, including Africa, Asia, and South America. Modern outbreaks have occurred in several countries, including Madagascar (2017), China (2014-2015), and the United States (e.g., Los Angeles, 1924 San Francisco, 1900).
+
+The origins of the Black Death highlight the interconnectedness of global trade routes, the importance of public health infrastructure, and the devastating impact that a single disease can have on human populations.";364;6;6;110.04763197898865;20.815306122448987;94.45918367346938
+28;What did Paul Baran develop?;Paul Baran developed the concept Distributed Adaptive Message Block Switching;"Paul Baran developed the concept of packet switching, which is a fundamental technology underlying modern computer networks and the Internet. In the 1960s, he proposed that data be broken into small packets and transmitted over a network as independent messages, rather than being sent as continuous streams of bits.
+
+Baran's work on packet switching was done at RAND Corporation (Research and Development) in the early 1960s, with the aim of developing communication systems for defense applications. He published his seminal paper ""On Distributed Communications"" in 1964, which outlined the principles of packet switching and its advantages over traditional circuit-switched networks.
+
+Packet switching has since become a cornerstone of modern networking technologies, including local area networks (LANs), wide area networks (WANs), and the Internet itself. It allows for efficient and reliable communication between devices on a network by breaking data into packets that can be transmitted independently, reassembled at their destination, and delivered in any order.
+
+Baran's work on packet switching has had a lasting impact on the development of modern computer networks and is widely regarded as one of the most important contributions to networking technology in the 20th century.";190;5;10;49.22928762435913;20.94944186046513;93.53488372093024
+29;When was the French and Indian War?;1754?1763;"The French and Indian War took place from 1754 to 1763. It was a conflict between the British Empire and the French Empire, with their respective Native American allies, in North America. The war began in May 1754 when a group of British colonists led by George Washington clashed with French forces in present-day Pennsylvania.
+
+The war can be divided into several phases:
+
+1. **Early clashes (1754-1755)**: The initial skirmishes took place in the Ohio River Valley, where British and French forces competed for control.
+2. **Braddock's defeat (1755)**: In July 1755, a large British force led by General Edward Braddock was defeated by a smaller French army in present-day Pennsylvania.
+3. **Monongahela campaign (1755-1756)**: The British launched several campaigns to drive the French from the region, but they were repelled.
+4. **British victories (1757-1759)**: In 1757, the British won a series of battles, including the Battle of Louisbourg, which led to the capture of Quebec in 1759 and Montreal in 1760.
+5. **Treaty of Paris (1763)**: The war officially ended with the signing of the Treaty of Paris on February 10, 1763, in which France ceded all its North American territories east of the Mississippi River to Britain.
+
+The French and Indian War had significant consequences for both the British Empire and the colonies. It led to a massive debt that was eventually paid off by the colonists through taxes, contributing to growing tensions between the colonies and Great Britain. The war also set the stage for the eventual American Revolution.";252;7;1;73.36821913719177;20.898569230769247;93.83076923076923
+30;What are the agents the immune system detects known as?;pathogens;"The agents that the immune system detects are known as antigens. Antigens are substances (such as proteins, carbohydrates, or other molecules) that can trigger an immune response and stimulate the production of antibodies or activate immune cells like T cells. They can be found on the surface of pathogens like bacteria, viruses, fungi, and parasites, as well as on damaged or foreign cells in the body.
+
+When an antigen enters the body, it is recognized by specific immune cells called antigen-presenting cells (APCs), such as dendritic cells or macrophages, which then process and present pieces of the antigen to T cells. This recognition and presentation of antigens to the immune system allows the body to mount a targeted response against the invading pathogen or foreign substance.
+
+There are also two other terms related to antigens:
+
+* Immunogens: These are substances that can induce an immune response, but may not be present in all individuals.
+* Epitopes (or antigenic determinants): These are specific regions on an antigen that are recognized by the immune system.";173;10;1;44.82888627052307;20.987435897435905;95.0
+31;What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?;Computational complexity theory;"The branch of theoretical computer science that deals with broadly classifying computational problems by difficulty and class of relationship is **Computational Complexity Theory**.
+
+More specifically, Computational Complexity Theory focuses on the study of the resources required to solve computational problems. This includes:
+
+1. Time complexity: The amount of time an algorithm takes to complete.
+2. Space complexity: The amount of memory an algorithm uses.
+3. Algorithmic efficiency: The comparison between different algorithms for solving a problem.
+
+Computational Complexity Theory also deals with the study of classes of computational problems, such as:
+
+* **P** (Polynomial Time): Problems that can be solved in polynomial time.
+* **NP** (Nondeterministic Polynomial Time): Problems whose solutions can be verified in polynomial time.
+* **NP-complete**: A subset of NP problems that are at least as hard as the hardest problem in NP.
+
+Computational Complexity Theory helps us understand the inherent limitations and capabilities of computational systems, and provides a framework for classifying problems by their complexity and relationship to other problems.";165;18;3;44.50445365905762;20.714435897435905;92.53846153846153
+32;Which coastline does Southern California touch?;Pacific;Southern California touches the Pacific Ocean. The coast of Southern California is home to many famous beaches, bays, and ports, including Los Angeles Harbor and San Diego Bay.;28;6;1;8.20586609840393;20.648;82.83333333333333
+33;What percentile of gross domestic product is construction comprised of?;six to nine percent;I'm unable to provide information on the specific percentage that the construction industry contributes to a country's GDP, as this can vary widely depending on the nation in question and the source of the data. The contribution of industries to a country's GDP can change over time due to various economic factors, including shifts in global demand, technological advancements, and government policies.;62;10;4;15.790335416793823;20.742846153846155;92.84615384615384
+34;Where according to gross state product does Victoria rank in Australia?;second;"According to data from the Australian Bureau of Statistics (ABS), as of 2020, Victoria's Gross State Product (GSP) ranked 1st among all states and territories in Australia.
+
+This means that out of all the states and territories in Australia, Victoria had the highest GSP.";44;11;1;13.142924308776855;20.9346;89.2
+35;Sophocles demonstrated civil disobedience in a play that was called?;Antigone;"I'm not aware of any Sophocles' plays that demonstrated civil disobedience. Sophocles (c. 496 - 406 BCE) was an ancient Greek playwright, and his works include:
+
+1. ""Oedipus Rex"" (also known as ""Oedipus the King"")
+2. ""Antigone""
+3. ""The Women of Trachis""
+
+It seems I have to correct my previous thought. The play that fits the description is actually ""Antigone"".";60;10;1;21.715306997299194;21.053055555555556;85.94444444444444
+36;University of Chicago scholars played a major part in what development?;various academic disciplines;"The University of Chicago has been involved in several significant developments, but here are some notable ones:
+
+1. **Enrico Fermi and the Manhattan Project**: In 1942, Enrico Fermi and his team at the University of Chicago conducted the first controlled nuclear chain reaction, marking a major breakthrough in nuclear physics.
+2. **Behavioral Economics (Milton Friedman)**: Milton Friedman's work on economics and the critique of Keynesian theory helped shape modern macroeconomic thought, influencing the development of behavioral economics.
+3. **Enzyme Structure (Linus Pauling)**: Linus Pauling's research at the University of Chicago contributed significantly to our understanding of enzyme structure and function.
+4. **Cosmology (Subrahmanyan Chandrasekhar)**: S. Chandrasekhar, a renowned astrophysicist, made significant contributions to our understanding of stellar evolution and black holes while working at the Yerkes Observatory in Wisconsin, but he was also associated with the University of Chicago.
+5. **Game Theory (John Nash and others)**: The University of Chicago has a long history of research in game theory, which has been instrumental in shaping modern economics and decision-making.
+
+However, if I had to choose one development that stands out, it would be:
+
+**The Manhattan Project**: The successful experiment conducted by Enrico Fermi's team at the University of Chicago marked a significant turning point in nuclear physics and contributed directly to the development of atomic energy.
+
+Please let me know if you'd like more information on any of these topics!";230;11;3;66.13603210449219;20.93317241379311;93.12068965517241
+37;The word imperialism has it's origins in which ancient language?;Latin;"A interesting question!
+
+According to etymological sources, the word ""imperialism"" comes from Latin. Specifically, it is derived from the Latin words:
+
+* ""Imperium"", meaning ""empire"" or ""command""
+* The suffix ""-alism"", which was a common way of forming nouns in Latin
+
+So, the origins of the word ""imperialism"" can be traced back to the Latin language.
+
+However, if you're looking for an ancient language that predates Latin, it's worth noting that Latin itself is a descendant of Proto-Indo-European (PIE), which was spoken around 4000-3000 BCE. So, in a broader sense, one could argue that the origins of ""imperialism"" are rooted in PIE.
+
+But if you're asking about an ancient language with direct influence on the development of the word, Latin is the most likely candidate!";125;10;1;35.778027296066284;20.201666666666668;92.33333333333333
+38;What UN organizations established the IPCC?;the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP);"The Intergovernmental Panel on Climate Change (IPCC) was established by two United Nations organizations:
+
+1. **United Nations Environment Programme (UNEP)**: UNEP is a leading global environmental authority that sets the global environmental agenda, promotes cooperation and action on the environment, and coordinates UN environmental activities.
+2. **World Meteorological Organization (WMO)**: WMO is a specialized agency of the United Nations responsible for coordinating international collaboration in meteorology, hydrology, and related areas.
+
+In 1988, UNEP and WMO jointly established the IPCC to provide an objective assessment of the science on climate change, its impacts, and options for mitigating and adapting to these changes. The IPCC has since become a leading international body for assessing and disseminating knowledge on climate change, its causes, consequences, and potential solutions.";124;6;12;36.00697660446167;20.861258064516136;92.90322580645162
+39;Which gas makes up 20.8% of the Earth's atmosphere?;Diatomic oxygen;Nitrogen (N2) makes up about 78%, and Oxygen (O2) makes up about 21%. Therefore, Nitrogen (N2) makes up approximately 79.1% and Oxygen (O2) makes up 20.9%. The correct answer is that oxygen (O2) makes up 20.8% of the Earth's atmosphere;40;9;2;16.937711000442505;20.419142857142855;86.42857142857143
+40;What is the Yuan dynasty's official name?;the Great Yuan;"The Yuan dynasty, which ruled China from 1271 to 1368, was officially known as the ""Da Yuan"" (大元), which means ""Great Yuan"" in Chinese.
+
+However, it was also known by several other names, including:
+
+* Mongol Empire (in its early stages)
+* Yüan (in Romanization)
+* Khanbaliq (the capital city's name during the early years of the dynasty)
+
+But if I had to give you a single official name for the Yuan dynasty, it would be ""Da Yuan"" (Great Yuan).";80;7;3;25.247769117355347;20.560904761904766;94.0952380952381
+41;What are the agents detected by the immune system called?;pathogens;"The agents detected by the immune system are called **pathogens**. Pathogens are microorganisms that cause disease in humans, animals, and plants. They include:
+
+1. Bacteria (e.g., E. coli, Staphylococcus aureus)
+2. Viruses (e.g., influenza, HIV)
+3. Fungi (e.g., Candida, Aspergillus)
+4. Protozoa (e.g., Plasmodium, Toxoplasma)
+
+When the immune system detects pathogens, it responds by triggering an **immune response**, which involves a variety of mechanisms to eliminate or neutralize the invading pathogen.
+
+Is there anything else I can help clarify?";79;10;1;30.067697048187256;20.989846153846152;98.46153846153847
+42;What is European Union Law?;a body of treaties and legislation, such as Regulations and Directives, which have direct effect or indirect effect on the laws of European Union member states;"European Union (EU) law, also known as the acquis communautaire, refers to the comprehensive set of laws, policies, and regulations that govern the activities and relationships between the Member States of the European Union. EU law is a unique and complex body of law that has evolved over several decades through the interactions of national governments, institutions of the EU, and various other stakeholders.
+
+**Sources of EU Law:**
+
+EU law can be derived from several sources:
+
+1. **Treaties:** The primary source of EU law is the Treaties, which establish the principles and objectives of the Union. There are two main treaties:
+	* Treaty on European Union (TEU)
+	* Treaty on the Functioning of the European Union (TFEU)
+2. **Regulations:** EU regulations have direct effect, meaning they become part of national law in all Member States without needing to be transposed into domestic legislation.
+3. **Directives:** EU directives require Member States to adopt specific measures within a set timeframe, but they do not have direct effect.
+4. **Decisions:** EU decisions are binding on the parties involved and can take various forms, such as individual decisions or framework decisions.
+5. **Ratification by National Parliaments:** Many EU laws must be ratified by national parliaments before coming into force.
+
+**Key Principles of EU Law:**
+
+Some key principles that underlie EU law include:
+
+1. **Primacy of EU Law:** In case of conflict, EU law takes precedence over national law.
+2. **Direct Effect:** EU regulations and certain directives have direct effect, meaning they are directly applicable in all Member States.
+3. **Proportionality:** EU laws should be proportionate to their objectives and not excessively burdensome for individuals or businesses.
+4. **Non-Discrimination:** EU law seeks to promote equality and non-discrimination among citizens.
+
+**EU Institutions:**
+
+Several institutions are responsible for implementing, interpreting, and enforcing EU law:
+
+1. **European Commission (EC):** Proposes and implements EU policies.
+2. **Council of the European Union (EU Council):** Represents national governments in setting EU policies and adopting legislation.
+3. **European Parliament (EP):** Represents the interests of EU citizens and scrutinizes EU institutions' actions.
+4. **Court of Justice of the European Union (CJEU):** Interprets EU law, ensures its uniform application across Member States.
+
+**Impact of EU Law:**
+
+EU law has a significant impact on various aspects of daily life, including:
+
+1. **Free Movement:** The right to live, work, and study in any EU country.
+2. **Trade and Competition Policy:** Encourages free trade and competition within the single market.
+3. **Environmental Protection:** Establishes common standards for environmental protection and sustainability.
+4. **Consumer Rights:** Provides protections for consumers, such as product safety and consumer credit rights.
+
+In summary, European Union law is a complex body of rules that governs the activities of Member States and their citizens. Its key principles, sources, institutions, and impact all contribute to creating a single market and promoting integration among EU countries.";470;5;26;135.31645107269287;20.888966942148766;95.40495867768595
+43;What concept did philosophers in antiquity use to study simple machines?;the concept of force;"Philosophers in Antiquity, particularly Aristotle (384-322 BCE), used the concept of ""ergon"" (ἔργον) to study and understand simple machines.
+
+In Greek philosophy, ergon referred to a device or mechanism that performs a specific task, such as lifting heavy objects. Aristotle's work ""Mechanica"" is considered one of the earliest systematic treatises on mechanics. In it, he analyzed various simple machines, including levers, pulleys, and inclined planes, using the concept of ergon.
+
+Aristotle identified several key aspects of a machine's ergon:
+
+1. The purpose or function ( telos) that it serves.
+2. The material components ( hyle) used to build the machine.
+3. The way in which these components are arranged to perform the desired task.
+
+By examining simple machines through the lens of ergon, Aristotle and other ancient philosophers aimed to understand how they worked, their relative efficiencies, and their limitations.
+
+Later on, as mechanics evolved into a distinct field, this concept influenced the development of kinematics and the study of machines in medieval Europe.";164;11;4;47.754048585891724;20.858476190476203;93.35714285714286
+44;What right do private schools have that public schools don't?;to select their students;"While private schools and public schools have many similarities, there are some key differences in their structure, funding, and operational rights. Here are some of the main advantages or ""rights"" that private schools typically enjoy:
+
+1. **Freedom from government oversight**: Private schools are not subject to the same level of government regulation as public schools. They can set their own policies, procedures, and standards without needing approval from local or state authorities.
+2. **Autonomy in curriculum design**: Private schools have the flexibility to create their own curricula, which may include elective courses or special programs that aren't available in public schools.
+3. **Higher degree of parental involvement**: Since private schools are often smaller and more personalized, parents tend to be more involved in decision-making processes and have a greater say in school governance.
+4. **Flexibility in admissions and tuition policies**: Private schools can set their own admission standards, selectivity levels, and tuition rates, which allows them to create a unique student body and financial model.
+5. **More control over budgeting and resource allocation**: With private funding sources (e.g., tuition, donations), private schools have more control over their budgets and can allocate resources as needed to support specific programs or initiatives.
+6. **Ability to offer specialized courses and programs**: Private schools may be able to offer advanced or specialized courses in areas like the arts, music, or foreign languages, which might not be feasible for public schools due to budget constraints.
+7. **Potential for more generous financial aid packages**: Private schools often have more flexible policies regarding financial aid, scholarships, and other forms of assistance, which can make them a more accessible option for families from diverse economic backgrounds.
+
+However, it's essential to note that these advantages come with trade-offs:
+
+1. **Higher costs**: Tuition fees at private schools are often significantly higher than those for public schools.
+2. **Limited accessibility**: Private schools may not be inclusive of students from lower-income families or those requiring special educational services.
+3. **Lack of accountability**: Without government oversight, some private schools may struggle to ensure equity and access for all students.
+
+Keep in mind that these differences can vary depending on the specific school, location, and context.";362;10;4;94.78247165679932;20.860380952380986;94.86904761904762
+45;What is the largest stadium in Australia?;Melbourne Cricket Ground;"The largest stadium in Australia is the Melbourne Cricket Ground (MCG), located in Melbourne, Victoria. It has a seating capacity of approximately 100,024 people, making it not only the largest stadium in Australia but also one of the largest cricket stadiums and Australian Rules football stadiums in the world.
+
+However, if you're considering other sports like rugby or soccer, the larger stadium is actually Stadium Australia (also known as Accor Stadium) in Sydney, which has a seating capacity of around 83,500 people. It hosted several events during the 2000 Summer Olympics, including the opening and closing ceremonies.
+
+It's worth noting that while these stadiums are large, they can be expanded to accommodate larger crowds for specific events or concerts.";119;7;3;31.125927448272705;20.955740740740744;97.33333333333333
+46;Where do ctenophora live?;marine waters;"Ctenophores, also known as comb jellies, are marine animals that can be found in oceans around the world. They are a diverse group of organisms with over 200 species.
+
+Ctenophores typically inhabit shallow to deep waters, from the surface down to depths of up to 1,000 meters (3,300 feet). They are most commonly found in temperate and tropical regions, including:
+
+* Coastal areas with coral reefs
+* Estuaries and bays
+* Open ocean waters
+* Brackish waters (mix of fresh and saltwater)
+
+Some species of ctenophores are also known to be pelagic, meaning they drift freely in the water column, while others may be more attached to surfaces or sediment.
+
+Examples of specific habitats where ctenophores can be found include:
+
+* The Atlantic Ocean
+* The Pacific Ocean
+* The Indian Ocean
+* The Mediterranean Sea
+* The Red Sea
+
+It's worth noting that ctenophores are often found in areas with abundant plankton, which they feed on. They play an important role in marine ecosystems as both predators and prey.";170;4;2;48.34376883506775;20.807309523809536;90.54761904761905
+47;In what country can most of the Amazon rainforest be found?;Brazil;Most of the Amazon rainforest is located in Brazil. Brazil accounts for more than 60% of the Amazon rainforest, covering an area of approximately 4,100,000 square kilometers (1,580,000 sq mi). The other countries where significant portions of the Amazon rainforest can be found are Peru, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Suriname, and French Guiana.;54;11;1;18.35473656654358;20.607266666666668;92.53333333333333
+48;What are the two bodies that make up the European Union's legislature?;European Parliament and the Council of the European Union;"The European Union's (EU) legislative body is composed of two main chambers:
+
+1. **European Parliament** (EP): This is directly elected by EU citizens and has around 705 Members of the European Parliament (MEPs). The EP represents the interests of the people of Europe, and its members are responsible for representing their respective countries and constituencies.
+2. **Council of the European Union** (EU Council or simply ""The Council""): This chamber is made up of government ministers from each EU member state, who come together to make decisions on behalf of their governments.
+
+Together, these two bodies form the **Legislative Procedure** of the EU, where they work in tandem to draft and adopt laws. The European Parliament represents the interests of citizens, while the Council represents the interests of its respective countries' governments.
+
+It's worth noting that there are also several other key players involved in the EU's legislative process, such as the **Commission**, which proposes legislation, and the **European Economic and Social Committee** (EESC) and the **Committee of the Regions** (CoR), which provide input from various sectors of society.";178;12;9;48.63929867744446;20.802833333333343;91.4047619047619
+49;The Scottish Parliament may legislate as it pleases as long as the powers aren't already reserved by where?;Westminster;"The answer is Westminster. The Scottish Parliament has devolved powers from the UK Parliament at Westminster, but it can only act within those powers unless it explicitly legislates on a matter that is not reserved to Westminster. 
+
+In other words, if the power isn't already reserved to Westminster, then the Scottish Parliament may legislate as it pleases.";57;18;1;15.428121328353882;20.671916666666668;94.91666666666667
