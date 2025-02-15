@@ -80,7 +80,7 @@ def monitor_tegrastats_during_response(question):
 # Load questions from the dataset
 def readQuestions():
     current_directory = os.getcwd()
-    df = pd.read_csv('../../dataset/mini_dataset.csv', sep=',')
+    df = pd.read_csv('../../../dataset/mini_dataset.csv', sep=',')
     return df
 
 # Ask the Ollama model a question and receive a response
