@@ -80,14 +80,14 @@ def monitor_tegrastats_during_response(question):
 # Load questions from the dataset
 def readQuestions():
     current_directory = os.getcwd()
-    df = pd.read_csv('../../../dataset/mini_dataset.csv', sep=',')
+    df = pd.read_csv('../../../dataset/mini_trivia.csv', sep=',')
     return df
 
 # Ask the Ollama model a question and receive a response
 def generateResponse(question):
     try:
         response = ollama.chat(
-            model='phi3.5',
+            model='mistral:7b-instruct-v0.3-q5_K_M',
             messages=[
                 {
                     'role': 'user',
@@ -161,8 +161,7 @@ def askQuestions():
                                'ref_answer_token_sum', 'latency', 'power_consumption',
                                'gpu_utilization'])
     print(df)
-    df.to_excel('results_phi35_with_tegrastats.xlsx')
-    df.to_csv('results_phi35_with_tegrastats.csv', sep=';')
+    df.to_excel('results_mistral5_with_tegrastats.xlsx')
 
 # Execute the function
 askQuestions()

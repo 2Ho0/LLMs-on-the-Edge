@@ -80,7 +80,7 @@ def monitor_tegrastats_during_response(question):
 # Load questions from the dataset
 def readQuestions():
     current_directory = os.getcwd()
-    df = pd.read_csv('../../../dataset/miniSQuAD.csv', sep=';')
+    df = pd.read_csv('../../../dataset/mini_dataset.csv', sep=',')
     return df
 
 # Ask the Ollama model a question and receive a response
@@ -162,7 +162,6 @@ def askQuestions():
                                'gpu_utilization'])
     print(df)
     df.to_excel('results_phi35_with_tegrastats.xlsx')
-    df.to_csv('results_phi35_with_tegrastats.csv', sep=';')
 
 # Execute the function
 askQuestions()
