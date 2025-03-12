@@ -87,7 +87,7 @@ def readQuestions():
 def generateResponse(question):
     try:
         response = ollama.chat(
-            model='llama3.1:8b',
+                model='phi3.5',
             messages=[
                 {
                     'role': 'user',
@@ -161,8 +161,7 @@ def askQuestions():
                                'ref_answer_token_sum', 'latency', 'power_consumption',
                                'gpu_utilization'])
     print(df)
-    df.to_excel('results_llama_with_tegrastats.xlsx')
-    df.to_csv('results_llama_with_tegrastats.csv', sep=';')
+    df.to_excel('results_phi35_5_with_tegrastats.xlsx')
 
 # Execute the function
 askQuestions()
